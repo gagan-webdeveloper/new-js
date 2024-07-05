@@ -23,3 +23,16 @@ let hundreds = 10000000;
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++MATHS++++++++++++++++++++++++++++++++++++++++++++++
 
+console.log(Math);
+console.log(Math.abs(-4));      //it converts negative value to the positive
+console.log(Math.round(4.6));       //it rounds off the value according to the maths...
+console.log(Math.ceil(4.3));    //it roundsoff to the next greatest integer...
+console.log(Math.floor(6.6));       //it rounds off to the lower integer.
+
+
+
+console.log(Math.random());
+const min = 10;
+const max = 20;
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);
