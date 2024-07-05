@@ -67,3 +67,38 @@ const bignumber = 14432325432345325433n     //always use n in the end for repres
 // Arrays  =>  object
 // Function  =>  function
 // Object  =>  object
+
+
+
+
+//**********************************************++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+//  ********************************MEMORY***********************************************
+
+
+// stack (primitive datatypes)(change occurs in the copy of the datatype ) ,,, heep (non-primitive)(change in real value!!)
+
+let tubeName = "chai aur code";
+
+let realname = tubeName;
+
+realname = "Gagan";
+
+console.log(tubeName);
+console.log(realname);          //here original value is not passed , change occurs only in the copy of the value...
+
+
+
+//********************HEEP */
+
+let userone = {
+    email:"abc123@google.com",
+    city:"chennai"
+}
+
+let userTwo = userone;
+
+userTwo.email = "gaganyadav@google.com"
+
+console.log(userone.email);
+console.log(userTwo.email);         //here change occurs in the original value , not in the copy..
