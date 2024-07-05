@@ -101,4 +101,4 @@ let userTwo = userone;
 userTwo.email = "gaganyadav@google.com"
 
 console.log(userone.email);
-console.log(userTwo.email);         //here change occurs in the original value , not in the copy..
+console.log(userTwo.email);         //here change occurs in the original value , not in the copy...
