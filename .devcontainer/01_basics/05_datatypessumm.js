@@ -36,17 +36,12 @@ let myfunction = function(){
 
 
 
-
-
-
 const id = Symbol("123");
 const newId = Symbol("123");        //even if we give same value to the symbol , its work is to assign different values..
 
 console.log(id===newId);
 
 const bignumber = 14432325432345325433n     //always use n in the end for representing the big int values..
-
-
 
 
 

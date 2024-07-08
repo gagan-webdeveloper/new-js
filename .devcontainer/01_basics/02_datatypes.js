@@ -14,3 +14,4 @@ null => representation of the empty value..                 (typeof null is obje
 */
 
 console.log(typeof undefined);
+

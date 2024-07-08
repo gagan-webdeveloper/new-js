@@ -30,4 +30,4 @@ console.log(anotherString.trim());
     const url = "https://gagan.com/gagan%20yadav";
     console.log(url.replace("%20" , "-"));
 
-    console.log(url.includes("gagan"));         //it tells wether gagan is present in the string or nor...
+    console.log(url.includes("gagan"));         //it tells wether gagan is present in the string or nor...c
